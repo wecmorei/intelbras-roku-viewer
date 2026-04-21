@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+    <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+    <children>
+        <Video id="cameraPlayer" width="1920" height="1080" />
+        <Label id="statusLabel" text="Conectando ao DVR Intelbras..." width="1920" height="100" translation="[0, 900]" horizAlign="center" />
+    </children>
+</component>
